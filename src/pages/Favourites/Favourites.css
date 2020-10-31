@@ -1,0 +1,50 @@
+.mainFavWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    gap: 3%;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.favalbum{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.favalbum h1{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .mainFavWrapper{
+        padding:0 2rem 0 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 697px) {
+    .mainFavWrapper{
+        padding:2rem 2rem 0 2rem;
+    }
+
+    .productWrapper{
+        margin-bottom: 1.5rem;
+    }
+
+    .navlogo img{
+        height: 5.5rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .productWrapper{
+        width:80%;
+        min-width: 14rem;
+    }
+    
+}

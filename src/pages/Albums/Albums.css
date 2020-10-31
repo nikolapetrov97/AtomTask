@@ -1,0 +1,67 @@
+.album{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    margin-top: 15rem;
+
+}
+
+.album-active{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    margin-top: 3rem;
+}
+
+.album h1{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.album-active h1{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    gap: 3%;
+    justify-content: center;
+    overflow: hidden;
+    /* background-color: royalblue; */
+}
+
+@media screen and (max-width: 1500px) {
+    .mainWrapper{
+        padding:0 2rem 0 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 714px) {
+    .mainWrapper{
+        padding:2rem 2rem 0 2rem;
+    }
+
+    .productWrapper{
+        margin-bottom: 1.5rem;
+    }
+
+    .navlogo img{
+        height: 5.5rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .productWrapper{
+        width:80%;
+        min-width: 14rem;
+    }
+    
+}
+

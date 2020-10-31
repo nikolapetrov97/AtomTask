@@ -1,0 +1,32 @@
+.navWrapper{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0 1rem 0;
+}
+
+.albumIconWrapper{
+    order: 0;
+}
+
+.favouriteIconWrapper{
+    order: 2;
+}
+
+.navlogo{
+    order: 1;
+}
+
+.navlogo img{
+    height: 6.5rem;
+}
+
+.fa-camera-retro{
+    color: black;
+}
+
+.fa-heart{
+    color: black;
+}
